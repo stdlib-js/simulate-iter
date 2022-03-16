@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/simulate-iter",
-  "version": "0.0.6",
+  "version": "0.0.0",
   "description": "Simulation iterators.",
   "license": "Apache-2.0",
   "author": {
@@ -95,6 +95,7 @@
     "@stdlib/random-base-minstd-shuffle": "^0.0.x",
     "@stdlib/random-base-uniform": "^0.0.x",
     "@stdlib/random-iter-randu": "^0.0.x",
+    "@stdlib/string-format": "^0.0.x",
     "@stdlib/symbol-iterator": "^0.0.x",
     "@stdlib/utils-constant-function": "^0.0.x",
     "@stdlib/utils-copy": "^0.0.x",
