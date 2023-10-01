@@ -38,7 +38,7 @@
   "dependencies": {
     "@stdlib/simulate-iter-awgn": "^0.1.0",
     "@stdlib/simulate-iter-awln": "^0.1.0",
-    "@stdlib/simulate-iter-awun": "^0.0.6",
+    "@stdlib/simulate-iter-awun": "^0.1.0",
     "@stdlib/simulate-iter-bartlett-hann-pulse": "^0.1.0",
     "@stdlib/simulate-iter-bartlett-pulse": "^0.1.0",
     "@stdlib/simulate-iter-cosine-wave": "^0.1.0",
