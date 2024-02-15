@@ -35,38 +35,32 @@ limitations under the License.
 
 > Simulation iterators.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/simulate-iter
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-ns = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/simulate-iter@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var ns = require( 'path/to/vendor/umd/simulate-iter/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/simulate-iter@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.ns;
-})();
-</script>
+var ns = require( '@stdlib/simulate-iter' );
 ```
 
 #### ns
@@ -117,21 +111,11 @@ The namespace contains the following functions for creating iterator protocol-co
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/simulate-iter@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var objectKeys = require( '@stdlib/utils-keys' );
+var ns = require( '@stdlib/simulate-iter' );
 
 console.log( objectKeys( ns ) );
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -185,8 +169,8 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/simulate-iter.svg
 [npm-url]: https://npmjs.org/package/@stdlib/simulate-iter
 
-[test-image]: https://github.com/stdlib-js/simulate-iter/actions/workflows/test.yml/badge.svg?branch=main
-[test-url]: https://github.com/stdlib-js/simulate-iter/actions/workflows/test.yml?query=branch:main
+[test-image]: https://github.com/stdlib-js/simulate-iter/actions/workflows/test.yml/badge.svg?branch=v0.2.0
+[test-url]: https://github.com/stdlib-js/simulate-iter/actions/workflows/test.yml?query=branch:v0.2.0
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/simulate-iter/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/simulate-iter?branch=main
@@ -209,45 +193,48 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [es-module]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules
 
 [deno-url]: https://github.com/stdlib-js/simulate-iter/tree/deno
+[deno-readme]: https://github.com/stdlib-js/simulate-iter/blob/deno/README.md
 [umd-url]: https://github.com/stdlib-js/simulate-iter/tree/umd
+[umd-readme]: https://github.com/stdlib-js/simulate-iter/blob/umd/README.md
 [esm-url]: https://github.com/stdlib-js/simulate-iter/tree/esm
+[esm-readme]: https://github.com/stdlib-js/simulate-iter/blob/esm/README.md
 [branches-url]: https://github.com/stdlib-js/simulate-iter/blob/main/branches.md
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/simulate-iter/main/LICENSE
 
 <!-- <toc-links> -->
 
-[@stdlib/simulate/iter/awgn]: https://github.com/stdlib-js/simulate-iter-awgn/tree/umd
+[@stdlib/simulate/iter/awgn]: https://github.com/stdlib-js/simulate-iter-awgn
 
-[@stdlib/simulate/iter/awln]: https://github.com/stdlib-js/simulate-iter-awln/tree/umd
+[@stdlib/simulate/iter/awln]: https://github.com/stdlib-js/simulate-iter-awln
 
-[@stdlib/simulate/iter/awun]: https://github.com/stdlib-js/simulate-iter-awun/tree/umd
+[@stdlib/simulate/iter/awun]: https://github.com/stdlib-js/simulate-iter-awun
 
-[@stdlib/simulate/iter/bartlett-hann-pulse]: https://github.com/stdlib-js/simulate-iter-bartlett-hann-pulse/tree/umd
+[@stdlib/simulate/iter/bartlett-hann-pulse]: https://github.com/stdlib-js/simulate-iter-bartlett-hann-pulse
 
-[@stdlib/simulate/iter/bartlett-pulse]: https://github.com/stdlib-js/simulate-iter-bartlett-pulse/tree/umd
+[@stdlib/simulate/iter/bartlett-pulse]: https://github.com/stdlib-js/simulate-iter-bartlett-pulse
 
-[@stdlib/simulate/iter/cosine-wave]: https://github.com/stdlib-js/simulate-iter-cosine-wave/tree/umd
+[@stdlib/simulate/iter/cosine-wave]: https://github.com/stdlib-js/simulate-iter-cosine-wave
 
-[@stdlib/simulate/iter/dirac-comb]: https://github.com/stdlib-js/simulate-iter-dirac-comb/tree/umd
+[@stdlib/simulate/iter/dirac-comb]: https://github.com/stdlib-js/simulate-iter-dirac-comb
 
-[@stdlib/simulate/iter/flat-top-pulse]: https://github.com/stdlib-js/simulate-iter-flat-top-pulse/tree/umd
+[@stdlib/simulate/iter/flat-top-pulse]: https://github.com/stdlib-js/simulate-iter-flat-top-pulse
 
-[@stdlib/simulate/iter/hann-pulse]: https://github.com/stdlib-js/simulate-iter-hann-pulse/tree/umd
+[@stdlib/simulate/iter/hann-pulse]: https://github.com/stdlib-js/simulate-iter-hann-pulse
 
-[@stdlib/simulate/iter/lanczos-pulse]: https://github.com/stdlib-js/simulate-iter-lanczos-pulse/tree/umd
+[@stdlib/simulate/iter/lanczos-pulse]: https://github.com/stdlib-js/simulate-iter-lanczos-pulse
 
-[@stdlib/simulate/iter/periodic-sinc]: https://github.com/stdlib-js/simulate-iter-periodic-sinc/tree/umd
+[@stdlib/simulate/iter/periodic-sinc]: https://github.com/stdlib-js/simulate-iter-periodic-sinc
 
-[@stdlib/simulate/iter/pulse]: https://github.com/stdlib-js/simulate-iter-pulse/tree/umd
+[@stdlib/simulate/iter/pulse]: https://github.com/stdlib-js/simulate-iter-pulse
 
-[@stdlib/simulate/iter/sawtooth-wave]: https://github.com/stdlib-js/simulate-iter-sawtooth-wave/tree/umd
+[@stdlib/simulate/iter/sawtooth-wave]: https://github.com/stdlib-js/simulate-iter-sawtooth-wave
 
-[@stdlib/simulate/iter/sine-wave]: https://github.com/stdlib-js/simulate-iter-sine-wave/tree/umd
+[@stdlib/simulate/iter/sine-wave]: https://github.com/stdlib-js/simulate-iter-sine-wave
 
-[@stdlib/simulate/iter/square-wave]: https://github.com/stdlib-js/simulate-iter-square-wave/tree/umd
+[@stdlib/simulate/iter/square-wave]: https://github.com/stdlib-js/simulate-iter-square-wave
 
-[@stdlib/simulate/iter/triangle-wave]: https://github.com/stdlib-js/simulate-iter-triangle-wave/tree/umd
+[@stdlib/simulate/iter/triangle-wave]: https://github.com/stdlib-js/simulate-iter-triangle-wave
 
 <!-- </toc-links> -->
 
