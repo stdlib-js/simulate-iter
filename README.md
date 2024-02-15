@@ -42,13 +42,18 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/simulate-iter@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/simulate-iter/tags). For example,
+
+```javascript
 import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/simulate-iter@v0.2.0-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { iterBartlettHannPulse, iterBartlettPulse, iterCosineWave, iterDiracComb, iterFlatTopPulse, iterHannPulse, iterLanczosPulse, iterPeriodicSinc, iterPulse, iterSawtoothWave, iterSineWave, iterSquareWave, iterTriangleWave, iterawgn, iterawln, iterawun } from 'https://cdn.jsdelivr.net/gh/stdlib-js/simulate-iter@v0.2.0-esm/index.mjs';
+import { iterBartlettHannPulse, iterBartlettPulse, iterCosineWave, iterDiracComb, iterFlatTopPulse, iterHannPulse, iterLanczosPulse, iterPeriodicSinc, iterPulse, iterSawtoothWave, iterSineWave, iterSquareWave, iterTriangleWave, iterawgn, iterawln, iterawun } from 'https://cdn.jsdelivr.net/gh/stdlib-js/simulate-iter@esm/index.mjs';
 ```
 
 #### ns
@@ -106,7 +111,7 @@ The namespace contains the following functions for creating iterator protocol-co
 <script type="module">
 
 import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@esm/index.mjs';
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/simulate-iter@v0.2.0-esm/index.mjs';
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/simulate-iter@esm/index.mjs';
 
 console.log( objectKeys( ns ) );
 
