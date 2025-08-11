@@ -35,20 +35,32 @@ limitations under the License.
 
 > Simulation iterators.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/simulate-iter
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/simulate-iter@deno/mod.js';
-```
-
-You can also import the following named exports from the package:
-
-```javascript
-import { iterBartlettHannPulse, iterBartlettPulse, iterCosineWave, iterDiracComb, iterFlatTopPulse, iterHannPulse, iterLanczosPulse, iterPeriodicSinc, iterPulse, iterSawtoothWave, iterSineWave, iterSquareWave, iterTriangleWave, iterawgn, iterawln, iterawun } from 'https://cdn.jsdelivr.net/gh/stdlib-js/simulate-iter@deno/mod.js';
+var ns = require( '@stdlib/simulate-iter' );
 ```
 
 #### ns
@@ -100,8 +112,8 @@ The namespace contains the following functions for creating iterator protocol-co
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@deno/mod.js';
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/simulate-iter@deno/mod.js';
+var objectKeys = require( '@stdlib/utils-keys' );
+var ns = require( '@stdlib/simulate-iter' );
 
 console.log( objectKeys( ns ) );
 ```
@@ -127,7 +139,7 @@ console.log( objectKeys( ns ) );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -192,37 +204,37 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
-[@stdlib/simulate/iter/awgn]: https://github.com/stdlib-js/simulate-iter-awgn/tree/deno
+[@stdlib/simulate/iter/awgn]: https://github.com/stdlib-js/simulate-iter-awgn
 
-[@stdlib/simulate/iter/awln]: https://github.com/stdlib-js/simulate-iter-awln/tree/deno
+[@stdlib/simulate/iter/awln]: https://github.com/stdlib-js/simulate-iter-awln
 
-[@stdlib/simulate/iter/awun]: https://github.com/stdlib-js/simulate-iter-awun/tree/deno
+[@stdlib/simulate/iter/awun]: https://github.com/stdlib-js/simulate-iter-awun
 
-[@stdlib/simulate/iter/bartlett-hann-pulse]: https://github.com/stdlib-js/simulate-iter-bartlett-hann-pulse/tree/deno
+[@stdlib/simulate/iter/bartlett-hann-pulse]: https://github.com/stdlib-js/simulate-iter-bartlett-hann-pulse
 
-[@stdlib/simulate/iter/bartlett-pulse]: https://github.com/stdlib-js/simulate-iter-bartlett-pulse/tree/deno
+[@stdlib/simulate/iter/bartlett-pulse]: https://github.com/stdlib-js/simulate-iter-bartlett-pulse
 
-[@stdlib/simulate/iter/cosine-wave]: https://github.com/stdlib-js/simulate-iter-cosine-wave/tree/deno
+[@stdlib/simulate/iter/cosine-wave]: https://github.com/stdlib-js/simulate-iter-cosine-wave
 
-[@stdlib/simulate/iter/dirac-comb]: https://github.com/stdlib-js/simulate-iter-dirac-comb/tree/deno
+[@stdlib/simulate/iter/dirac-comb]: https://github.com/stdlib-js/simulate-iter-dirac-comb
 
-[@stdlib/simulate/iter/flat-top-pulse]: https://github.com/stdlib-js/simulate-iter-flat-top-pulse/tree/deno
+[@stdlib/simulate/iter/flat-top-pulse]: https://github.com/stdlib-js/simulate-iter-flat-top-pulse
 
-[@stdlib/simulate/iter/hann-pulse]: https://github.com/stdlib-js/simulate-iter-hann-pulse/tree/deno
+[@stdlib/simulate/iter/hann-pulse]: https://github.com/stdlib-js/simulate-iter-hann-pulse
 
-[@stdlib/simulate/iter/lanczos-pulse]: https://github.com/stdlib-js/simulate-iter-lanczos-pulse/tree/deno
+[@stdlib/simulate/iter/lanczos-pulse]: https://github.com/stdlib-js/simulate-iter-lanczos-pulse
 
-[@stdlib/simulate/iter/periodic-sinc]: https://github.com/stdlib-js/simulate-iter-periodic-sinc/tree/deno
+[@stdlib/simulate/iter/periodic-sinc]: https://github.com/stdlib-js/simulate-iter-periodic-sinc
 
-[@stdlib/simulate/iter/pulse]: https://github.com/stdlib-js/simulate-iter-pulse/tree/deno
+[@stdlib/simulate/iter/pulse]: https://github.com/stdlib-js/simulate-iter-pulse
 
-[@stdlib/simulate/iter/sawtooth-wave]: https://github.com/stdlib-js/simulate-iter-sawtooth-wave/tree/deno
+[@stdlib/simulate/iter/sawtooth-wave]: https://github.com/stdlib-js/simulate-iter-sawtooth-wave
 
-[@stdlib/simulate/iter/sine-wave]: https://github.com/stdlib-js/simulate-iter-sine-wave/tree/deno
+[@stdlib/simulate/iter/sine-wave]: https://github.com/stdlib-js/simulate-iter-sine-wave
 
-[@stdlib/simulate/iter/square-wave]: https://github.com/stdlib-js/simulate-iter-square-wave/tree/deno
+[@stdlib/simulate/iter/square-wave]: https://github.com/stdlib-js/simulate-iter-square-wave
 
-[@stdlib/simulate/iter/triangle-wave]: https://github.com/stdlib-js/simulate-iter-triangle-wave/tree/deno
+[@stdlib/simulate/iter/triangle-wave]: https://github.com/stdlib-js/simulate-iter-triangle-wave
 
 <!-- </toc-links> -->
 
