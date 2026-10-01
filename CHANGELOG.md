@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-08-16)
+## Unreleased (2026-10-01)
 
 <section class="commits">
 
@@ -12,6 +12,12 @@
 
 <details>
 
+-   [`19f0185`](https://github.com/stdlib-js/stdlib/commit/19f01851d123686afabbe4715c2786a9c2db684b) - **test:** migrate `simulate/iter/cosine-wave` to ULP-based assertions [(#15592)](https://github.com/stdlib-js/stdlib/pull/15592) _(by Athan Reines)_
+-   [`4a73a48`](https://github.com/stdlib-js/stdlib/commit/4a73a48c1f28816538ad016f5b43f6a96de31523) - **test:** migrate `simulate/iter/triangle-wave` to ULP-based assertions [(#15571)](https://github.com/stdlib-js/stdlib/pull/15571) _(by Athan Reines)_
+-   [`8b6eb86`](https://github.com/stdlib-js/stdlib/commit/8b6eb86c59838f7c9166775d1b8309b2c9e98748) - **test:** migrate `simulate/iter/hann-pulse` to ULP-based assertions [(#15398)](https://github.com/stdlib-js/stdlib/pull/15398) _(by Athan Reines)_
+-   [`6ba944e`](https://github.com/stdlib-js/stdlib/commit/6ba944eea5a85ce99e0cee7b5e4a5467fcf1c117) - **test:** migrate `simulate/iter/flat-top-pulse` to ULP-based assertions [(#15175)](https://github.com/stdlib-js/stdlib/pull/15175) _(by Athan Reines)_
+-   [`10dd715`](https://github.com/stdlib-js/stdlib/commit/10dd715a1462fd7c2b7ca0ed043d31d54566c2ae) - **test:** migrate `simulate/iter/sawtooth-wave` to ULP-based assertions [(#15109)](https://github.com/stdlib-js/stdlib/pull/15109) _(by Athan Reines)_
+-   [`5656376`](https://github.com/stdlib-js/stdlib/commit/565637699b24253dc5d6bd0d4daf10f8bb49b5b7) - **test:** migrate `simulate/iter/bartlett-hann-pulse` to ULP-based assertions [(#14614)](https://github.com/stdlib-js/stdlib/pull/14614) _(by Athan Reines)_
 -   [`b2ef3a3`](https://github.com/stdlib-js/stdlib/commit/b2ef3a330e9fb2fbb3093553dcb3969b894379bc) - **docs:** correct `@throws` description for pulse duration [(#12515)](https://github.com/stdlib-js/stdlib/pull/12515) _(by Philipp Burckhardt)_
 -   [`a798978`](https://github.com/stdlib-js/stdlib/commit/a79897842a2e5173b83d293a967f9629a56942f5) - **docs:** update equation [(#12398)](https://github.com/stdlib-js/stdlib/pull/12398) _(by Athan Reines)_
 -   [`e997446`](https://github.com/stdlib-js/stdlib/commit/e997446d98bf546c0220bad7a7f11b63c6944e35) - **bench:** refactor to use string interpolation in `simulate` [(#11591)](https://github.com/stdlib-js/stdlib/pull/11591) _(by Karan Anand)_
