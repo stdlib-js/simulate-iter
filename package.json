@@ -71,7 +71,6 @@
     "@stdlib/assert-is-positive-integer": "^0.2.3",
     "@stdlib/assert-is-positive-number": "^0.2.3",
     "@stdlib/assert-is-uint32array": "^0.2.3",
-    "@stdlib/constants-float64-eps": "^0.2.3",
     "@stdlib/constants-float64-half-pi": "^0.2.3",
     "@stdlib/constants-float64-pi": "^0.2.3",
     "@stdlib/constants-float64-pinf": "^0.2.3",
